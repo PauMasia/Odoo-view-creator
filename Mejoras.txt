@@ -1,0 +1,41 @@
+Agregaciones:
+
+Done - Siempre es xml el archivo
+Done - Campos obligatorios, todos los de la izq
+Done - Ocultar campos en caso de no ser necesarios * 
+Revisar- Seleccionar añadir/ocultar campo. En caso de ocultar hacer opciones para cada tipo de vista no poner replace
+	- invisible="1"
+	- t-if="false" / "0"
+Done - Boton para eliminar bloques y con la misma advertencia que cuando le vas a dar a xpath y hay contenido, hacer    	que sea un pop up de html no de el navegador, ambos pop up
+Done - Lista de variables de el objeto
+~ - Modo oscuro y otros tipos de css
+DONE- Pone xpath literalmente en el xpath hace que este mal
+DONE- El nombre de la vista orignal no puede estar bloqueado nunca, tiene que ponerse arriba modulo de la vista original y el nombre se seguira haciendo igual
+DESCARTADO - Template no es necesario poner <odoo>
+DONE - Actualizar seleccion de atributos automaticamente
+DONE - El ocultar tienes que poner correctamente el t-if y el attributes invisble 1, replace nunca
+- Faltará vista src/xml, este es raro
+DONE - Al cambiar tipo de vista se borrara todo, y avisará antes
+DONE - En themeprime el nombre de la key tiene que sacarlo desde el id, del template, tal que 	modulo.template_name
+
+***********************************************************************************************
+
+DONE - Cuando se oculta deberia de bloquearse el texto modificable en el bloque
+MITAD - Cada bloque puede hacer referencia a una vista diferente , esot realmente deberia de ser automatico
+DONE - Opcion para copiar el resultado, de solo el bloque, pero sin pop up simplemente click y al porta papeles, opcion para copiar el codigo entero con caerecas y solo el bloque creado
+DONE - El id de las vistas no tiene que coger nunca el numero del bloque
+DONE - Esto no esta comprobado pero que este formateado cuando lo copie al portapapeles
+DONE - cuando esta simplemente en ocultar, solo hay que bloquear y poner en gris para señalar que no se puede escribir, y borrar el contenido del recuadro
+DONE - Si se modifica varias veces la misma vista agrupar y meterlo todo junto pero en orden de bloques, separado por un espacio
+
+(Hay algunas mas revisar ultima consulta)
+DONE - Y poder asignar nombres a los bloques para poder diferenciarlos, simplemente para mostrar al usuario y no perderse cuando tenga muchos
+DONE - Extra, el botón de copiar no funciona, y el nombre de lo de la vista padre tiene que ser automatico a menos que se especifique
+
+Pruebas:
+
+- Probar a descargar multiples xpath simultaneos
+
+Eliminar a posterior:
+El id de la vista heredada sigue generándose como tú querías:
+id = [NombreVistaOriginal]_[Funcionalidad]_[nº bloque]
